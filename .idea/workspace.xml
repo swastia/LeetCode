@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdbaf57-7d07-4fce-9efd-8447894b6127" name="Changes" comment="LeetCode Problems Level 1">
-      <change afterPath="$PROJECT_DIR$/src/com/learn/FindPivotIndex724.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/HouseRobber_198.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/contests/MostFrequentEvenElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/dynamicProgramming/ClimbingStairs_70.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +38,44 @@
     "last_opened_file_path": "C:/Users/swast/Documents/Study/LeetCode"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FindPivotIndex724">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\swast\Documents\Study\LeetCode\src\com\learn\contests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MostFrequentEvenElement">
     <configuration name="FindPivotIndex724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.FindPivotIndex724" />
       <module name="LeetCoding" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HouseRobber_198" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.HouseRobber_198" />
+      <module name="LeetCoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MostFrequentEvenElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.contests.MostFrequentEvenElement" />
+      <module name="LeetCoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.contests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,6 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MostFrequentEvenElement" />
+        <item itemvalue="Application.HouseRobber_198" />
         <item itemvalue="Application.FindPivotIndex724" />
         <item itemvalue="Application.RunningSum1DArray" />
       </list>
@@ -135,6 +170,21 @@
           <url>file://$PROJECT_DIR$/src/com/learn/FindPivotIndex724.java</url>
           <line>59</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/learn/HouseRobber_198.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/learn/contests/MostFrequentEvenElement.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/learn/contests/MostFrequentEvenElement.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
