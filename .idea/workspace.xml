@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fdbaf57-7d07-4fce-9efd-8447894b6127" name="Changes" comment="LeetCode Problems Level 1">
+    <list default="true" id="9fdbaf57-7d07-4fce-9efd-8447894b6127" name="Changes" comment="Weekly Contest 310 - Most Frequent Even Element">
       <change afterPath="$PROJECT_DIR$/src/com/learn/HouseRobber_198.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/contests/MostFrequentEvenElement.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/learn/dynamicProgramming/ClimbingStairs_70.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learn/contests/MostFrequentEvenElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/contests/MostFrequentEvenElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661799528543</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Weekly Contest 310 - Most Frequent Even Element">
+      <created>1663227323766</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663227323766</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,7 +157,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LeetCode Problems Level 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Problems Level 1" />
+    <MESSAGE value="Weekly Contest 310 - Most Frequent Even Element" />
+    <option name="LAST_COMMIT_MESSAGE" value="Weekly Contest 310 - Most Frequent Even Element" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -175,16 +182,6 @@
           <url>file://$PROJECT_DIR$/src/com/learn/HouseRobber_198.java</url>
           <line>17</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/learn/contests/MostFrequentEvenElement.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/learn/contests/MostFrequentEvenElement.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

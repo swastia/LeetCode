@@ -42,14 +42,13 @@ public class MostFrequentEvenElement {
 
         Map<Integer, Integer> counterMap = new HashMap<>();
 
-        for(int i =0; i< nums.length; i++){
-            int key = nums[i];
-            if(key%2 == 0){
-                counterMap.computeIfPresent(key, (k,v) -> v+1);
+        for (int key : nums) {
+            if (key % 2 == 0) {
+                counterMap.computeIfPresent(key, (k, v) -> v + 1);
                 counterMap.putIfAbsent(key, 1);
-                if(smallest == -1){
+                if (smallest == -1) {
                     smallest = key;
-                } else if(maxCounter < counterMap.get(key)){
+                } else if (maxCounter < counterMap.get(key)) {
                     smallest = key;
                     maxCounter = counterMap.get(key);
                 } else if (maxCounter == counterMap.get(key) && smallest > key) {
