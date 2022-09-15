@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9fdbaf57-7d07-4fce-9efd-8447894b6127" name="Changes" comment="Weekly Contest 310 - Most Frequent Even Element">
       <change afterPath="$PROJECT_DIR$/src/com/learn/HouseRobber_198.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/contests/week_310/OptimalPartitionOfString_2450.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/learn/dynamicProgramming/ClimbingStairs_70.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/contests/MostFrequentEvenElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/contests/MostFrequentEvenElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learn/contests/MostFrequentEvenElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/contests/week_310/MostFrequentEvenElement_2404.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +36,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/swast/Documents/Study/LeetCode"
+    "last_opened_file_path": "C:/Users/swast/Documents/Study/data-structures"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -42,7 +44,7 @@
       <recent name="C:\Users\swast\Documents\Study\LeetCode\src\com\learn\contests" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MostFrequentEvenElement">
+  <component name="RunManager" selected="Application.OptimalPartitionOfString_2450">
     <configuration name="FindPivotIndex724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.FindPivotIndex724" />
       <module name="LeetCoding" />
@@ -69,12 +71,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MostFrequentEvenElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.contests.MostFrequentEvenElement" />
+    <configuration name="MostFrequentEvenElement_2404" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.contests.week_310.MostFrequentEvenElement_2404" />
       <module name="LeetCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.contests.*" />
+          <option name="PATTERN" value="com.learn.contests.week_310.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptimalPartitionOfString_2450" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.contests.week_310.OptimalPartitionOfString_2450" />
+      <module name="LeetCoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.contests.week_310.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,7 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MostFrequentEvenElement" />
+        <item itemvalue="Application.OptimalPartitionOfString_2450" />
+        <item itemvalue="Application.MostFrequentEvenElement_2404" />
         <item itemvalue="Application.HouseRobber_198" />
         <item itemvalue="Application.FindPivotIndex724" />
         <item itemvalue="Application.RunningSum1DArray" />
@@ -141,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663227323766</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Weekly Contest 310 - Most Frequent Even Element">
+      <created>1663227600158</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663227600158</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +205,11 @@
           <url>file://$PROJECT_DIR$/src/com/learn/HouseRobber_198.java</url>
           <line>17</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/learn/contests/week_310/OptimalPartitionOfString_2450.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

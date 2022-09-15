@@ -1,4 +1,4 @@
-package com.learn.contests;
+package com.learn.contests.week_310;
 
 
 import java.util.HashMap;
@@ -35,7 +35,7 @@ Constraints:
 0 <= nums[i] <= 105
 */
 
-public class MostFrequentEvenElement {
+public class MostFrequentEvenElement_2404 {
     public int mostFrequentEven(int[] nums) {
         int smallest = -1;
         int maxCounter = 0;
@@ -62,7 +62,7 @@ public class MostFrequentEvenElement {
     }
 
     public static void main(String[] args) {
-        MostFrequentEvenElement even = new MostFrequentEvenElement();
+        MostFrequentEvenElement_2404 even = new MostFrequentEvenElement_2404();
         System.out.println(even.mostFrequentEven(new int[]{ 0,1,2,2,4,4,1}));
         System.out.println(even.mostFrequentEven(new int[]{ 3,1,1}));
         System.out.println(even.mostFrequentEven(new int[]{ 0,1,2,2,4,4,4,1}));
