@@ -28,10 +28,12 @@ import java.util.Map;
 public class OptimalPartitionOfString_2450 {
 
 
-    /** This is my appraoch, where I am forming sub-strings from input string.
+    /**
+     * This is my appraoch, where I am forming sub-strings from input string.
      * This returns the minimum possible substrings where the characters are not repeated
-     * this is though a bit deviated from original question, where we have partition the string from left to right.
-     * **/
+     * this is though a bit deviated from original question, where we have to
+     * partition the string from left to right.
+     **/
     public int uniqueSubStrings(String s) {
         int minCounter = 0;
         Map<Character, Integer> charCountMap = new HashMap<>();
@@ -63,28 +65,34 @@ public class OptimalPartitionOfString_2450 {
         System.out.println(part.uniqueSubStrings("hdklqkcssgxlvehva"));
 
 
-//        System.out.println(part.partitionString("aaabbbccc"));
-//        System.out.println(part.partitionString("  "));
-//        System.out.println(part.partitionString("abacaba"));
-//        System.out.println(part.partitionString("sssssss"));
-//        System.out.println(part.partitionString("hdklqkcssgxlvehva"));
+        System.out.println(part.partitionString("aaabbbccc"));
+        System.out.println(part.partitionString("  "));
+        System.out.println(part.partitionString("abacaba"));
+        System.out.println(part.partitionString("sssssss"));
+        System.out.println(part.partitionString("hdklqkcssgxlvehva"));
     }
 
+/** This solution partitions the string from left to right, such that characters are not repeated.
+ * This is not the optimal solution to find substrings without characters repeating.
+ * Just to fulfill the left to right partitioning requirement, this approach is taken
+ * **/
+    public int partitionString(String s) {
+        int minCounter = 1;
+        Map<Character, Integer> map = new HashMap<>();
 
-//    public int partitionString(String s){
-//        int minCounter = 0;
-//        Map<Character, Integer> map = new HashMap<>();
-//
-//        for (char c: s.toCharArray()) {
-//
-//            map.entrySet().forEach(entry ->{
-//                if(entry.getValue() == 1)
-//                    map.clear();
-//            } );
-//            map.putIfAbsent(c,1);
-//            minCounter++;
-//        }
-//
-//        return minCounter -1;
-//    }
+        if (s == null || s.isBlank()) {
+            return 0;
+        }
+
+        for (char c : s.toCharArray()) {
+
+            if (map.containsKey(c)) {
+                map.clear();
+                minCounter++;
+            }
+            map.putIfAbsent(c, 1);
+
+        }
+        return minCounter;
+    }
 }
