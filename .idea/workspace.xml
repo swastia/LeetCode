@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fdbaf57-7d07-4fce-9efd-8447894b6127" name="Changes" comment="Weekly Contest 310 - Optimal Partition Of String - 2405">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="9fdbaf57-7d07-4fce-9efd-8447894b6127" name="Changes" comment="Weekly Contest 310 - Optimal Partition Of String Q-2405, partitioning string from left to right.">
       <change afterPath="$PROJECT_DIR$/src/com/learn/HouseRobber_198.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/learn/dynamicProgramming/ClimbingStairs_70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/medium/ContainerWithMostWater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/contests/week_310/OptimalPartitionOfString_2450.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/contests/week_310/OptimalPartitionOfString_2450.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +31,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/swast/Documents/Study/data-structures"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/swast/Documents/Study/data-structures&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\swast\Documents\Study\LeetCode\src\com\learn\contests" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OptimalPartitionOfString_2450">
+  <component name="RunManager" selected="Application.ContainerWithMostWater">
+    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.medium.ContainerWithMostWater" />
+      <module name="LeetCoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindPivotIndex724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.FindPivotIndex724" />
       <module name="LeetCoding" />
@@ -99,26 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunningSum1DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.RunningSum1DArray" />
-      <module name="LeetCoding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.OptimalPartitionOfString_2450" />
         <item itemvalue="Application.MostFrequentEvenElement_2404" />
         <item itemvalue="Application.HouseRobber_198" />
         <item itemvalue="Application.FindPivotIndex724" />
-        <item itemvalue="Application.RunningSum1DArray" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663269255032</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Weekly Contest 310 - Optimal Partition Of String Q-2405, partitioning string from left to right.">
+      <created>1663295401071</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663295401071</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +197,8 @@
     <MESSAGE value="LeetCode Problems Level 1" />
     <MESSAGE value="Weekly Contest 310 - Most Frequent Even Element" />
     <MESSAGE value="Weekly Contest 310 - Optimal Partition Of String - 2405" />
-    <option name="LAST_COMMIT_MESSAGE" value="Weekly Contest 310 - Optimal Partition Of String - 2405" />
+    <MESSAGE value="Weekly Contest 310 - Optimal Partition Of String Q-2405, partitioning string from left to right." />
+    <option name="LAST_COMMIT_MESSAGE" value="Weekly Contest 310 - Optimal Partition Of String Q-2405, partitioning string from left to right." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -215,11 +222,6 @@
           <url>file://$PROJECT_DIR$/src/com/learn/HouseRobber_198.java</url>
           <line>17</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/learn/contests/week_310/OptimalPartitionOfString_2450.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
