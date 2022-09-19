@@ -4,8 +4,8 @@
     <list default="true" id="9fdbaf57-7d07-4fce-9efd-8447894b6127" name="Changes" comment="Container With Most Water - LeetCode-11">
       <change afterPath="$PROJECT_DIR$/src/com/learn/HouseRobber_198.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/learn/dynamicProgramming/ClimbingStairs_70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learn/easy/BackspaceStringCompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/learn/hard/TrappingRainWater_42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/hard/TrappingRainWater_42.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +45,13 @@
       <recent name="C:\Users\swast\Documents\Study\LeetCode\src\com\learn\contests" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TrappingRainWater_42">
-    <configuration name="ContainerWithMostWater_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.medium.ContainerWithMostWater_11" />
+  <component name="RunManager" selected="Application.BackspaceStringCompare">
+    <configuration name="BackspaceStringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.easy.BackspaceStringCompare" />
       <module name="LeetCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.medium.*" />
+          <option name="PATTERN" value="com.learn.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseRobber_198" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.HouseRobber_198" />
+    <configuration name="ContainerWithMostWater_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.medium.ContainerWithMostWater_11" />
       <module name="LeetCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.*" />
+          <option name="PATTERN" value="com.learn.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BackspaceStringCompare" />
         <item itemvalue="Application.TrappingRainWater_42" />
         <item itemvalue="Application.ContainerWithMostWater_11" />
         <item itemvalue="Application.OptimalPartitionOfString_2450" />
         <item itemvalue="Application.MostFrequentEvenElement_2404" />
-        <item itemvalue="Application.HouseRobber_198" />
       </list>
     </recent_temporary>
   </component>
