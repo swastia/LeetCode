@@ -67,29 +67,32 @@ public class BackspaceStringCompare_844 {
     //TODO: To fix
 
     public static boolean backspaceCompareOptimized(String s, String t) {
-        int ps = s.charAt(s.toCharArray().length-1), pt = t.charAt(t.toCharArray().length -1);
+        int ps = s.length() - 1, pt = t.length() -1;
 
         while(ps >= 0 || pt >= 0){
             int sCount=0, tCount=0;
 
-            //check if char at current index is #
-            if(s.charAt(ps) == '#'){
-                sCount +=1;
-                ps--;
-            } else {
-                // delete sCount number of chars
-                if(sCount > 0){
-                    ps--;
-                    sCount -= sCount;
+            if(s.charAt(ps) == '#' || t.charAt(pt) == '#'){
+                //check if char at current index is #
+                if(s.charAt(ps) == '#'){
+                    sCount=2;
+                    while(sCount>0){
+                        ps--;
+                        sCount--;
+                        if(s.charAt(ps) == '#'){
+                            sCount += 2;
+                        }
+                    }
                 }
-            }
-            if(t.charAt(pt) == '#'){
-                tCount += 1;
-                pt--;
-            } else{
-                if(tCount > 0){
-                    pt--;
-                    tCount -= tCount;
+                if(t.charAt(pt) == '#'){
+                    tCount =2;
+                    while(tCount>0){
+                        pt--;
+                        tCount--;
+                        if(s.charAt(pt) == '#'){
+                            tCount += 2;
+                        }
+                    }
                 }
             }
 

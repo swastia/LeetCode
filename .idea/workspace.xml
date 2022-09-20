@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fdbaf57-7d07-4fce-9efd-8447894b6127" name="Changes" comment="Container With Most Water - LeetCode-11">
+    <list default="true" id="9fdbaf57-7d07-4fce-9efd-8447894b6127" name="Changes" comment="Backspace String Compare">
       <change afterPath="$PROJECT_DIR$/src/com/learn/HouseRobber_198.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/learn/dynamicProgramming/ClimbingStairs_70.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/learn/easy/BackspaceStringCompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learn/easy/BackspaceStringCompare_844.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learn/easy/BackspaceStringCompare_844.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,23 +31,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/swast/Documents/Study/data-structures&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/swast/Documents/Study/LeetCode"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\swast\Documents\Study\LeetCode\src\com\learn\contests" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BackspaceStringCompare">
-    <configuration name="BackspaceStringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.easy.BackspaceStringCompare" />
+  <component name="RunManager" selected="Application.BackspaceStringCompare_844">
+    <configuration name="BackspaceStringCompare_844" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.easy.BackspaceStringCompare_844" />
       <module name="LeetCoding" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BackspaceStringCompare" />
+        <item itemvalue="Application.BackspaceStringCompare_844" />
         <item itemvalue="Application.TrappingRainWater_42" />
         <item itemvalue="Application.ContainerWithMostWater_11" />
         <item itemvalue="Application.OptimalPartitionOfString_2450" />
@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663464957247</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Backspace String Compare">
+      <created>1663610783011</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663610783011</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,7 +213,8 @@
     <MESSAGE value="Weekly Contest 310 - Optimal Partition Of String - 2405" />
     <MESSAGE value="Weekly Contest 310 - Optimal Partition Of String Q-2405, partitioning string from left to right." />
     <MESSAGE value="Container With Most Water - LeetCode-11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Container With Most Water - LeetCode-11" />
+    <MESSAGE value="Backspace String Compare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backspace String Compare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -240,6 +248,16 @@
           <url>file://$PROJECT_DIR$/src/com/learn/hard/TrappingRainWater_42.java</url>
           <line>54</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/learn/easy/BackspaceStringCompare_844.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/learn/easy/BackspaceStringCompare_844.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
