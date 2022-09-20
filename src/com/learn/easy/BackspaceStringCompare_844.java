@@ -70,13 +70,11 @@ public class BackspaceStringCompare_844 {
         int ps = s.length() - 1, pt = t.length() -1;
 
         while(ps >= 0 || pt >= 0){
-            int sCount=0, tCount=0;
-
             if(s.charAt(ps) == '#' || t.charAt(pt) == '#'){
                 //check if char at current index is #
                 if(s.charAt(ps) == '#'){
-                    sCount=2;
-                    while(sCount>0){
+                    int sCount=2;
+                    while(sCount>0 && ps > 0){
                         ps--;
                         sCount--;
                         if(s.charAt(ps) == '#'){
@@ -85,11 +83,11 @@ public class BackspaceStringCompare_844 {
                     }
                 }
                 if(t.charAt(pt) == '#'){
-                    tCount =2;
-                    while(tCount>0){
+                    int tCount =2;
+                    while(tCount>0 && pt>0){
                         pt--;
                         tCount--;
-                        if(s.charAt(pt) == '#'){
+                        if(t.charAt(pt) == '#'){
                             tCount += 2;
                         }
                     }
@@ -97,7 +95,7 @@ public class BackspaceStringCompare_844 {
             }
 
             if(s.charAt(ps) != '#' && t.charAt(pt) != '#'){
-                if(s.charAt(ps) != s.charAt(pt)) {
+                if(s.charAt(ps) != t.charAt(pt)) {
                     return false;
                 }
                 else{
