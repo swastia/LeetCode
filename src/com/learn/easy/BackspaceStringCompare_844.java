@@ -21,7 +21,7 @@ public class BackspaceStringCompare_844 {
     // Brute Force,  we can also use stack for pushing and popping characters
     public static boolean backspaceCompare(String s, String t) {
         List<Character> s1 = getResult(s), t1 = getResult(t);
-        if(s1.size() != t1.size()){
+        if (s1.size() != t1.size()) {
             return false;
         }
 
@@ -31,23 +31,23 @@ public class BackspaceStringCompare_844 {
         return rs1.equals(rt1);
     }
 
-    private static List<Character> getResult(String str){
+    private static List<Character> getResult(String str) {
         List<Character> result = new ArrayList<>();
 
-        for(int i=0; i<str.toCharArray().length; i++){
-            if(str.charAt(i) == '#'){
+        for (int i = 0; i < str.toCharArray().length; i++) {
+            if (str.charAt(i) == '#') {
                 // when list is empty, do nothing
-                if(result.size() == 0){
+                if (result.size() == 0) {
                     continue;
-                }else{
-                    result.remove(result.size()-1);
+                } else {
+                    result.remove(result.size() - 1);
                 }
-            } else{
+            } else {
                 result.add(str.charAt(i));
             }
         }
 
-    return result;
+        return result;
     }
 
     public static void main(String[] args) {
@@ -67,38 +67,37 @@ public class BackspaceStringCompare_844 {
     //TODO: To fix
 
     public static boolean backspaceCompareOptimized(String s, String t) {
-        int ps = s.length() - 1, pt = t.length() -1;
+        int ps = s.length() - 1, pt = t.length() - 1;
 
-        while(ps >= 0 || pt >= 0){
-            if(s.charAt(ps) == '#' || t.charAt(pt) == '#'){
+        while (ps >= 0 || pt >= 0) {
+            if ((ps >= 0 && s.charAt(ps) == '#') || (pt >= 0 && t.charAt(pt) == '#')) {
                 //check if char at current index is #
-                if(s.charAt(ps) == '#'){
-                    int sCount=2;
-                    while(sCount>0 && ps > 0){
+                if (ps >= 0 && s.charAt(ps) == '#') {
+                    int sCount = 2;
+                    while (sCount > 0) {
                         ps--;
                         sCount--;
-                        if(s.charAt(ps) == '#'){
+                        if (ps >= 0 && s.charAt(ps) == '#') {
                             sCount += 2;
                         }
                     }
                 }
-                if(t.charAt(pt) == '#'){
-                    int tCount =2;
-                    while(tCount>0 && pt>0){
+                if (pt >= 0 && t.charAt(pt) == '#') {
+                    int tCount = 2;
+                    while (tCount > 0) {
                         pt--;
                         tCount--;
-                        if(t.charAt(pt) == '#'){
+                        if (pt >= 0 && t.charAt(pt) == '#') {
                             tCount += 2;
                         }
                     }
                 }
-            }
-
-            if(s.charAt(ps) != '#' && t.charAt(pt) != '#'){
-                if(s.charAt(ps) != t.charAt(pt)) {
+            } else {
+                if (ps < 0 || pt < 0)
                     return false;
-                }
-                else{
+                if (s.charAt(ps) != t.charAt(pt)) {
+                    return false;
+                } else {
                     ps--;
                     pt--;
                 }
